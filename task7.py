@@ -1,4 +1,4 @@
-from .hospital.models import Address, People, Bio, Product, Doctor
+from .hospital.models import Product
 
 #insert a new record into the Product model
 p = Product(name='Apple', price=30.0)
